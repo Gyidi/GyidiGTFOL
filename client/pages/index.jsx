@@ -246,7 +246,7 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a
-          href="https://alchemy.com/?a=roadtoweb3weektwo"
+          href="#"
           target="_blank"
           rel="noopener noreferrer"
         >
