@@ -258,8 +258,8 @@ export default function Home() {
       <footer className={styles.footer}>
         <div>
           <p>Created by Gyidi!</p>
-          <a href="mailto: info@gyidi.org" target="_blank" rel="noopener noreferrer">
-            Email: info@gyidi.org
+          <a href="mailto: hello@gyidi.org" target="_blank" rel="noopener noreferrer">
+            Email: hello@gyidi.org
           </a>
         </div>
       </footer>
