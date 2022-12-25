@@ -77,7 +77,11 @@ export default function Home() {
         const donationTxn = await gyidi.donate(
           name ? name : "anon",
           message ? message : "Just donated!",
-          { value: value ? ethers.utils.parseEther(value) : ethers.utils.parseEther("0.001") }
+          {
+            value: value
+              ? ethers.utils.parseEther(value)
+              : ethers.utils.parseEther("0.001"),
+          }
         );
 
         await donationTxn.wait();
@@ -124,8 +128,15 @@ export default function Home() {
 
     // Create an event handler function for when someone sends
     // us a new donation.
-    const onNewDonation = (from, timestamp, amount, name, message, ) => {
-      console.log("Donation received: ", from, timestamp, amount, name, message);
+    const onNewDonation = (from, timestamp, amount, name, message) => {
+      console.log(
+        "Donation received: ",
+        from,
+        timestamp,
+        amount,
+        name,
+        message
+      );
       setDonations((prevState) => [
         ...prevState,
         {
@@ -245,16 +256,12 @@ export default function Home() {
         })}
 
       <footer className={styles.footer}>
-        <p>
-          Created by Gyidi! 
-        </p>
-        <a
-          href="#"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Email: info@gyidi.org
-        </a>
+        <div>
+          <p>Created by Gyidi!</p>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            Email: info@gyidi.org
+          </a>
+        </div>
       </footer>
     </div>
   );
