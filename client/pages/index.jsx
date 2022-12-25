@@ -245,12 +245,15 @@ export default function Home() {
         })}
 
       <footer className={styles.footer}>
+        <p>
+          Created by Gyidi! 
+        </p>
         <a
           href="#"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Created by Gyidi! Email: info@gyidi.org
+          Email: info@gyidi.org
         </a>
       </footer>
     </div>
