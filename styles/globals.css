@@ -25,3 +25,12 @@ nav {
   padding: 30px 25px;
 }
 
+#button {
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  background-color: black;
+  color: whitesmoke;
+}

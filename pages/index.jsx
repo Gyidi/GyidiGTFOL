@@ -222,14 +222,14 @@ export default function Home() {
                 ></textarea>
               </div>
               <div>
-                <button type="button" onClick={donate}>
+                <button id="button" type="button" onClick={donate}>
                   Donate
                 </button>
               </div>
             </form>
           </div>
         ) : (
-          <button onClick={connectWallet}> Connect your wallet </button>
+          <button id="button" onClick={connectWallet}> Connect your wallet </button>
         )}
       </main>
 
