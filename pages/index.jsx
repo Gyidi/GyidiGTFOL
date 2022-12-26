@@ -241,15 +241,15 @@ export default function Home() {
           <h2>About Gyidi</h2>
           <div id="about">
             <p>
-              Gyidi is a decentralised crowdfunding platform built entirely on the
-              blockchain with the aim of removing bureaucracy and middlemen
-              plaguing the both for profit to non-profit business. <br /> <br/> The goal is
-              to provide every individual the tools to fund and execute social
-              projects and for donors an uncensored, transparent medium where
-              capital is entrusted under the rigorous enforcement of smart
-              contracts and DAOs. <br />
-              <br /> We are still in early stage development and we need all the help
-              we can get.
+              Gyidi is a decentralised crowdfunding platform built entirely on
+              the blockchain with the aim of removing bureaucracy and middlemen
+              plaguing both for profit to non-profit businesses. <br /> <br />
+              The goal is to provide every individual the tools to fund and
+              execute social projects, and for donors, an uncensored, transparent
+              medium where capital is entrusted under the rigorous enforcement
+              of smart contracts and DAOs. <br />
+              <br /> We are still in early stage development and we need all the
+              help we can get.
               <br /> <br />
               Feel free to donate to Gyidi following the steps below.
               <br />
