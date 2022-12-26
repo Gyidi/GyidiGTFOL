@@ -171,7 +171,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>GyidiGTFOL</title>
-        <meta name="description" content="Tipping site" />
+        <meta name="description" content="Decentralized Crowdfunding site" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
