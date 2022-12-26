@@ -230,8 +230,7 @@ export default function Home() {
           </div>
         ) : (
           <button id="button" onClick={connectWallet}>
-            {" "}
-            Connect your wallet{" "}
+            Connect your wallet
           </button>
         )}
       </main>
@@ -245,9 +244,9 @@ export default function Home() {
               the blockchain with the aim of removing bureaucracy and middlemen
               plaguing both for profit to non-profit businesses. <br /> <br />
               The goal is to provide every individual the tools to fund and
-              execute social projects, and for donors, an uncensored, transparent
-              medium where capital is entrusted under the rigorous enforcement
-              of smart contracts and DAOs. <br />
+              execute social projects, and for donors, an uncensored,
+              transparent medium where capital is entrusted under the rigorous
+              enforcement of smart contracts and DAOs. <br />
               <br /> We are still in early stage development and we need all the
               help we can get.
               <br /> <br />
@@ -260,12 +259,20 @@ export default function Home() {
           <h2>Steps on how to donate</h2>
           <ol>
             <li>
-              Get metamask from <a href="https://metamask.io">Metamask</a>{" "}
+              Get metamask from <a href="https://metamask.io">Metamask</a>
             </li>
             <li>
-              Get GoerliETH from <a href="https://goerlifaucet.com">Faucet</a>{" "}
+              Get an alchemy account at
+              <a href="https://www.alchemy.com/">Alchemy</a>
             </li>
-            <li>Connect wallet </li>
+            <li>
+              Get GoerliETH from <a href="https://goerlifaucet.com">Faucet</a>
+            </li>
+            <li>Click Connect wallet </li>
+            <li>
+              Select wallet you prefer and click connect from the metamask pop
+              up
+            </li>
             <li>Type in amount in eth, any name and a message</li>
             <li>Click donate</li>
             <li>Confirm transaction</li>
