@@ -238,26 +238,26 @@ export default function Home() {
 
       {!currentAccount && (
         <div>
-          <h4>About Gyidi</h4>
+          <h2>About Gyidi</h2>
           <div id="about">
             <p>
               Gyidi is a decentralised crowdfunding platform built entirely on the
               blockchain with the aim of removing bureaucracy and middlemen
-              plaguing the both for profit to non-profit business.<br/> The goal is
+              plaguing the both for profit to non-profit business. <br /> <br/> The goal is
               to provide every individual the tools to fund and execute social
               projects and for donors an uncensored, transparent medium where
               capital is entrusted under the rigorous enforcement of smart
-              contracts and DAOs.
-              <br /> We are still in our early stages and we need all the help
+              contracts and DAOs. <br />
+              <br /> We are still in early stage development and we need all the help
               we can get.
-              <br />
+              <br /> <br />
               Feel free to donate to Gyidi following the steps below.
               <br />
             </p>
           </div>
 
           <br />
-          <h4>Steps on how to donate</h4>
+          <h2>Steps on how to donate</h2>
           <ol>
             <li>
               Get metamask from <a href="https://metamask.io">Metamask</a>{" "}

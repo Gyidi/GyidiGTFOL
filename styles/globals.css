@@ -40,5 +40,6 @@ nav>h1{
 }
 
 #about {
-  width: 50vh;
+  font-size: 22px;
+  width: 70vh;
 }
