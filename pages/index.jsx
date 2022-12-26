@@ -262,8 +262,7 @@ export default function Home() {
               Get metamask from <a href="https://metamask.io">Metamask</a>
             </li>
             <li>
-              Get an alchemy account at
-              <a href="https://www.alchemy.com/">Alchemy</a>
+              Get an alchemy account at <a href="https://www.alchemy.com/">Alchemy</a>
             </li>
             <li>
               Get GoerliETH from <a href="https://goerlifaucet.com">Faucet</a>
