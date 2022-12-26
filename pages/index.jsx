@@ -229,9 +229,50 @@ export default function Home() {
             </form>
           </div>
         ) : (
-          <button id="button" onClick={connectWallet}> Connect your wallet </button>
+          <button id="button" onClick={connectWallet}>
+            {" "}
+            Connect your wallet{" "}
+          </button>
         )}
       </main>
+
+      {!currentAccount && (
+        <div>
+          <h4>About Gyidi</h4>
+          <div id="about">
+            <p>
+              Gyidi is a decentralised crowdfunding platform built entirely on the
+              blockchain with the aim of removing bureaucracy and middlemen
+              plaguing the both for profit to non-profit business.<br/> The goal is
+              to provide every individual the tools to fund and execute social
+              projects and for donors an uncensored, transparent medium where
+              capital is entrusted under the rigorous enforcement of smart
+              contracts and DAOs.
+              <br /> We are still in our early stages and we need all the help
+              we can get.
+              <br />
+              Feel free to donate to Gyidi following the steps below.
+              <br />
+            </p>
+          </div>
+
+          <br />
+          <h4>Steps on how to donate</h4>
+          <ol>
+            <li>
+              Get metamask from <a href="https://metamask.io">Metamask</a>{" "}
+            </li>
+            <li>
+              Get GoerliETH from <a href="https://goerlifaucet.com">Faucet</a>{" "}
+            </li>
+            <li>Connect wallet </li>
+            <li>Type in amount in eth, any name and a message</li>
+            <li>Click donate</li>
+            <li>Confirm transaction</li>
+            <li>Wait for the magic to happen :)</li>
+          </ol>
+        </div>
+      )}
 
       {currentAccount && <h1>donations received</h1>}
 
@@ -258,7 +299,11 @@ export default function Home() {
       <footer className={styles.footer}>
         <div>
           <p>Created by Gyidi!</p>
-          <a href="mailto: hello@gyidi.org" target="_blank" rel="noopener noreferrer">
+          <a
+            href="mailto: hello@gyidi.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Email: hello@gyidi.org
           </a>
         </div>
